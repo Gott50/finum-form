@@ -25,6 +25,11 @@
         <div id="mc_embed_signup_scroll">
             <h2>Subscribe to our mailing list</h2>
             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+            <div class="mc-field-group size1of2">
+                <label for="mce-PHONE">Phone Number <span class="asterisk">*</span>
+                </label>
+                <input type="text" name="PHONE" class="required" value="" id="mce-PHONE">
+            </div>
             <div class="mc-field-group">
                 <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
                 </label>
@@ -37,6 +42,17 @@
             <div class="mc-field-group">
                 <label for="mce-LNAME">Last Name </label>
                 <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+            </div>
+            <div class="mc-field-group input-group">
+                <strong>Workshops </strong>
+                <ul>
+                    <li><input type="checkbox" value="1" name="group[6419][1]" id="mce-group[6419]-6419-0"><label
+                            for="mce-group[6419]-6419-0">Karriere</label></li>
+                    <li><input type="checkbox" value="2" name="group[6419][2]" id="mce-group[6419]-6419-1"><label
+                            for="mce-group[6419]-6419-1">Finanzen</label></li>
+                    <li><input type="checkbox" value="4" name="group[6419][4]" id="mce-group[6419]-6419-2"><label
+                            for="mce-group[6419]-6419-2">else</label></li>
+                </ul>
             </div>
             <div id="mce-responses" class="clear">
                 <div class="response" id="mce-error-response" style="display:none"></div>
@@ -55,6 +71,8 @@
 <script type='text/javascript'>(function ($) {
     window.fnames = new Array();
     window.ftypes = new Array();
+    fnames[4] = 'PHONE';
+    ftypes[4] = 'phone';
     fnames[0] = 'EMAIL';
     ftypes[0] = 'email';
     fnames[1] = 'FNAME';
@@ -63,11 +81,8 @@
     ftypes[2] = 'text';
     fnames[3] = 'ADDRESS';
     ftypes[3] = 'address';
-    fnames[4] = 'PHONE';
-    ftypes[4] = 'phone';
 }(jQuery));
 var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
-
 </body>
 </html>
